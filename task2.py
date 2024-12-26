@@ -2,10 +2,7 @@ import requests
 from datetime import datetime, timedelta
 
 def get_nbu_currency_rates_previous_week(valcode='USD'):
-    """
-    Получаем курсы выбранной валюты (по умолчанию USD) за предыдущую неделю
-    через API НБУ, используя библиотеку requests.
-    """
+   
 
     today = datetime.now()
 
