@@ -11,7 +11,7 @@ async def main():
     participants = await client.get_participants('@...')
     for user in participants:
         print(user.id, user.username, user.first_name, user.last_name)
-    await client.send_message('@some_contact', 'Привет!')
+    await client.send_message('@...', 'Привет!')
     await client.disconnect()
 
 asyncio.run(main())
