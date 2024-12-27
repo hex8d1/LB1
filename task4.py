@@ -3,7 +3,7 @@ from telethon import TelegramClient
 
 api_id = ...
 api_hash = "..."
-phone = "+380XXXXXXXXX"
+phone = "+380"
 
 async def main():
     client = TelegramClient('my_session', api_id, api_hash)
